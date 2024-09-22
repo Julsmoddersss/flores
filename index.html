@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Especial</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3f4d7; /* Color de fondo suave */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            width: 300px; /* Ancho de la tarjeta */
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            position: relative;
+        }
+
+        .flower-image {
+            background: url('img/amar.png') no-repeat center center;
+            background-size: contain; /* Ajustar el tamaño de la imagen */
+            height: 100px; /* Altura de la imagen */
+            width: 100px; /* Ancho de la imagen */
+            margin: 0 auto 20px; /* Centrar imagen */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #ffcc00; /* Color amarillo */
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #333; /* Color de texto */
+        }
+
+        .message {
+            font-size: 1em;
+            margin: 15px 0;
+            color: #555; /* Color de texto más suave */
+        }
+
+        button {
+            font-size: 1em;
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffcc00;
+            color: white;
+            cursor: pointer;
+            border-radius: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #ffb300;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="flower-image"></div> <!-- Imagen de flores -->
+        <h1>TONTA💕</h1>
+        <h2>¡Tienes un Regalo Especial!</h2>
+        <div class="message">Hoy no serás espectadora, sino protagonista.</div>
+        <button onclick="window.location.href='rosas.html'">Ver regalo ☞💛</button>
+    </div>
+</body>
+</html>
